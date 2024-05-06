@@ -1,0 +1,99 @@
+.main_5 {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px;
+  gap: 750px;
+  overflow: hidden;
+}
+
+.logo_5 {
+  padding: 12px;
+}
+
+.logo_5 img {
+  width: 118px;
+  height: 112px;
+  padding-bottom: 15px;
+}
+
+.socials a img {
+  margin-right: 7px;
+}
+.socials a {
+  padding-left: 7px;
+}
+
+.quest h3 {
+  color: #313131;
+  padding-bottom: 12px;
+}
+
+.quest p {
+  color: #b7bbb9;
+  padding-bottom: 10px;
+  font-size: small;
+}
+
+.right_5 {
+  text-align: right;
+}
+
+/*  responsiveness */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for tablets */
+  .main_5 {
+    padding: 30px;
+    gap: 250px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* Styles for mobile devices */
+  .main_5 {
+    padding: 30px;
+    gap: 150px;
+  }
+
+  .logo_5 {
+    padding: 7px;
+  }
+
+  .logo_5 img {
+    width: 98px;
+    height: 93px;
+    padding-bottom: 12px;
+  }
+
+  .socials a img {
+    margin-right: 2px;
+  }
+  .socials a {
+    padding-left: 3px;
+  }
+
+  .quest h3 {
+    color: #313131;
+    padding-bottom: 9px;
+  }
+
+  .quest p {
+    color: #b7bbb9;
+    padding-bottom: 7px;
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Styles for smaller mobile devices */
+  .main_5 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 50px;
+  }
+}
