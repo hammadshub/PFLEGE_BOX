@@ -12,11 +12,11 @@ import Footer from "./footer/Footer";
 const Home = () => {
   return (
     <>
-      <HeroSection classname="ok"/>
-      <Care classname="ok1"/>
-      <Works classname="ok2"/>
-      <Benefits classname="ok3"/>
-      <Footer classname="ok4"/>
+      <HeroSection/>
+      <Care />
+      <Works />
+      <Benefits />
+      <Footer />
     </>
   );
 };
