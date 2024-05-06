@@ -86,4 +86,24 @@ padding: 25px 0;
 
   }
   
+
+  @media screen and (max-width: 767px) {
+    .footer{
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        text-align: center;
+
+    }
+
+    .side_1 h4{
+        text-align: center;
+    }
+
+    .footer_sec h4{
+        font-size: small;
+    }
+  }
   
