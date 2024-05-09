@@ -1,0 +1,118 @@
+  
+ 
+ .ordr_content{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 200px;
+   
+ }
+
+
+ .heading h1{
+color:#313131;
+font-weight: 600;
+ }
+
+ .heading span{
+color:#86a7ff;
+
+ }
+
+ .heading img{
+    width: 150px;
+   transform: translate(133px,-12px);
+ }
+
+
+ 
+
+.bar{
+    padding-bottom: 20px;
+   
+}
+
+.bar progress{
+    width: 700px;
+    height: 40px;
+   
+}
+
+ 
+ 
+
+.bar_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 330px;
+    padding: 12px;
+}
+
+
+.left_bar{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.left_cont{
+    color: #575958;
+    font-weight: 600;
+    letter-spacing: 0.01rem;
+}
+
+.left_img img{
+    width: 80px;
+    height: 80px;
+   
+}
+
+
+.count_bar{
+    display: flex;
+   
+}
+
+
+
+.plus{
+  border: 2px solid #e4e4e4;
+  padding:12px;
+  align-items: center;
+    
+}
+.minus{
+  border: 2px solid #e4e4e4;
+  padding: 12px;  
+  align-items: center;
+  
+}
+.count{
+  border:2px solid #e4e4e4;
+  border-left:0px ;
+  border-right: 0px;
+  padding: 12px 41px;
+  color: #575958;
+  font-weight: 500;
+ text-align: center; 
+   
+ 
+  
+}
+
+
+.plus button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.minus button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+
+ 
+  
