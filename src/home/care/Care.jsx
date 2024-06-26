@@ -6,10 +6,13 @@ const Care = () => {
     <div className="main-container">
       
       <div className="content_container">
-       
+       <div className="bag_img">
+            <img src="./images/aid.png" alt="ok"/>
+            </div>
+
         <div className="l_img">
           <img className="img_2" src="./images/rec4.png" alt="banner2" />
-          <img className="img_1" src="./images/rec5.png" alt="banner" />
+           <img className="img_1" src="./images/rec5.png" alt="banner" />
         </div>
         <div className="r_text">
           <h1>

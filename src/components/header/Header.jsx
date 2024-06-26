@@ -5,7 +5,7 @@ import "./style.css";
 const Header = () => {
   return (
     <div className="container_11">
-    
+     
 <div className="navbar">
       <div className="logo">
         <img className="imggg" src="./images/Frame.png" alt="log" />
@@ -14,7 +14,7 @@ const Header = () => {
       <div className="menu">
 
         <ul className="nav_list">
-
+ 
           <li>
             <a href="./">Home</a>
           </li>

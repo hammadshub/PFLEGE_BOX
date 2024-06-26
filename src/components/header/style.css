@@ -32,8 +32,8 @@
 .nav_list li a {
   text-decoration: none;
   color: #575958;
-  font-style: normal;
-
+  font-style: none;
+  white-space: nowrap
 }
 
 .nav_list li a:hover {
@@ -44,6 +44,9 @@
 .nav_list li:first-child a {
   color: #86a7ff;
 }
+
+ 
+
 
 /*  responsiveness */
 
