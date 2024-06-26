@@ -42,7 +42,7 @@ const OrderBox = () => {
           <img src="./images/line.png" alt="" />
         </div>
 
-
+ 
         <div className="bar"><progress id="file" value={progress} max="100">70%</progress></div>
 
         <div className="bar_content">
