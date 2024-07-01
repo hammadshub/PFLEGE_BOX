@@ -16,16 +16,16 @@ const Header = () => {
         <ul className="nav_list">
  
           <li>
-            <a href="./">Home</a>
+             <a className="navv" href="./">Home</a>
           </li>
           <li>
-            <a href="./orderbox">Order Box</a>
+            <a className="navv" href="./orderbox">Order Box</a>
           </li>
           <li>
-            <a href="./faq">Faq</a>
+            <a className="navv" href="./faq">Faq</a>
           </li>
           <li>
-            <a href="./contact">Contact</a>
+            <a className="navv" href="./contact">Contact</a>
           </li>
 
         </ul>
@@ -36,4 +36,7 @@ const Header = () => {
   );
 };
 
+
 export default Header;
+
+

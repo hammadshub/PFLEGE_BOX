@@ -4,6 +4,9 @@
   overflow: hidden;
 }
 
+.active{
+  color: red;
+}
 .navbar {
   background-color: #dbe0ef;
   padding: 5px;
@@ -41,10 +44,7 @@
   transition: color 0.2s linear;
 }
 
-.nav_list li:first-child a {
-  color: #86a7ff;
-}
-
+ 
  
 
 

@@ -11,8 +11,9 @@ const OrderBox = () => {
 
   const handleIncrementClick = () => {
     if (progress < 100) {
-      setProgress(progress + 10);
-      if (progress >= 40) {
+      const newProgress = progress + 10;
+      setProgress(newProgress);
+      if (newProgress >= 50) {
         setButtonDisabled(true);  
       }
     }
@@ -43,7 +44,7 @@ const OrderBox = () => {
         </div>
 
  
-        <div className="bar"><progress id="file" value={progress} max="100">70%</progress></div>
+        <div className="bar"><progress id="file" value={progress} max="100"></progress></div>
 
         <div className="bar_content">
           <div className="left_bar">
@@ -187,27 +188,7 @@ const OrderBox = () => {
         </div>
 
         
-        <div className="bar_content">
-          <div className="left_bar">
-               <div className="left_img">
-              <img src="./images/bar.png" alt="" />
-            </div>
-            <div className="left_cont">Bed Protectors</div>
-          </div>
-
-          <div className="right_bar">
-            <div className="count_bar">
-              <div className="plus">
-              <button onClick={handleIncrementClick} disabled={buttonDisabled}> <img src="./images/plus.png" alt="+" /></button>
-              </div>
-
-              <div className="count">{progress}</div>
-              <div className="minus">
-               <button onClick={handleDecrementClick}><img src="./images/minus.png" alt="-" /></button>
-              </div>
-            </div>
-          </div>
-        </div>
+      
       
         
       </div>

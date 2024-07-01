@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./home/Home";
 import OrderBox from "./Pages/orderBox/OrderBox";
-import Faq from "./Pages/Faq";
-import Contact from "./Pages/Contact";
+import Faq from "./Pages/faq/Faq";
+import Contact from "./Pages/contact/Contact";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 
